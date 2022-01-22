@@ -3,6 +3,5 @@ $(function(){
         'navigation': true,
         'navigationPosition':"left",
         'navigationColor':['#fff'],
-
     });
 });

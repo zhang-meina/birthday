@@ -1,15 +1,11 @@
-
 /*
-
   Shape Shifter
   =============
   A canvas experiment by Kenneth Cachia
   http://www.kennethcachia.com
-
   Updated code
   ------------
   https://github.com/kennethcachia/Shape-Shifter 
-
 */
 
 // '#countdown 3|hi|祝你|生日快乐|happy birthday||'

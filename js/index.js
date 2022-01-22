@@ -1,6 +1,4 @@
-
 /*
-
   Shape Shifter
   =============
   A canvas experiment by Kenneth Cachia
@@ -131,7 +129,6 @@ S.UI = (function () {
       interval = setInterval(function () {
         currentAction = reverse ? currentAction - 1 : currentAction + 1;
         fn(currentAction);
-
         if ((!reverse && max && currentAction === max) || (reverse && currentAction === 0)) {
           clearInterval(interval);
         }
@@ -207,7 +204,6 @@ S.UI = (function () {
             }, 1000);
           }
           break;
-
         default:
           S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
